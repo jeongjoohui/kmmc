@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* copyright(c) WEBsiting.co.kr */
+/* 갤러리 새글 스킨 (latest) */
+
+.galleryBoxLat {position:relative;margin-bottom:20px;overflow:hidden;text-align:center;padding:20px;}
+.galleryBoxLat .galleryLatTit {display:block;}
+.galleryBoxLat .galleryLatTit a{color:#ddd;display:inline-block;position:relative; margin:0 auto; padding:20px;font-size:20px; text-align:center;}
+.galleryBoxLat .galleryLatTit a u{display:block;width:50px;height:5px;background:#999;position:absolute; left:50%;bottom:0px; margin-left:-25px;}
+
+.galleryBoxLat ul{overflow:hidden;padding:20px 0;margin:0;}
+.galleryBoxLat ul li{width:33%;float:left;overflow:hidden;}
+.galleryBoxLat ul li a{display:block;position:relative;}
+.galleryBoxLat ul li a em{display:block;font-style:normal;position:absolute; left:5px;top:5px; }
+.galleryBoxLat ul li a > b{ font-size:16px; display:block;text-align:center;height:30px;line-height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;color:#fff; position:absolute;left:10px;right:10px;top:150%;margin-top:-15px;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+.galleryBoxLat ul li a:hover > b{top:50%;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+
+.galleryBoxLat ul li a .bo_cate_link{ font-size:14px; display:block;text-align:center;height:30px;line-height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;width:100%; position:absolute;left:0px;bottom:150%;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+.galleryBoxLat ul li a:hover .bo_cate_link{bottom:52%;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+
+
+
+.galleryBoxLat ul li a > i u{display:block;text-decoration:none; font-style:normal;position:absolute; left:0;top:50%;width:100%;margin-top:-10px;height:20px;line-height:20px;font-size:12px;color:#999; }
+.galleryBoxLat ul li a > i{display:block;position:relative;overflow:hidden;background:#000;}
+.galleryBoxLat ul li a > i img{display:block;width:100%; height:auto;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+.galleryBoxLat ul li a:hover > i .youtube_img,
+.galleryBoxLat ul li a:hover > i img{filter:Alpha(opacity=50); opacity:0.5; -moz-opacity:0.5;transform: scale(1.1);-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+
+
+.galleryBoxLat ul li a > i em{display:block;position:absolute;left:0px;top:0px;right:0px;bottom:0px;width:100%;overflow:hidden;background-color:#000;}
+.galleryBoxLat ul li a > i .youtube_img{display:block;width:100%;height:100%;background-repeat:no-repeat;background-size:auto 200%;background-position:center center;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+.galleryBoxLat ul li a:hover > i .youtube_img{background-size:auto 220%;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+
+
+.galleryBoxLat li a span{font-size:11px;}
+.galleryBoxLat li .fa-heart{color:#ff0000;}
+.galleryBoxLat li .fa-lock{display: inline-block;font-size:11px;line-height: 14px;width: 16px;color: #999;background: #efefef;text-align: center;border-radius: 2px;font-size: 12px;border:1px solid #ddd}
+.galleryBoxLat li .new_icon{display:inline-block;font-size:11px;width: 16px;line-height:16px;color:#fff;background:#ff6600;text-align:center;border-radius: 50%;}
+.galleryBoxLat li .hot_icon{display:inline-block;font-size:11px;width: 16px;line-height:16px ;color:#fff;background:#e52955;text-align:center;border-radius: 50%;}
+
+.galleryBoxLat .lt_more {clear:both;font-size:12px;font-weight:bold;display:inline-block; padding:10px 30px;color:#ddd;border-radius:50px;text-align:center; margin:20px auto 0;background:#333;border:2px solid #444;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+.galleryBoxLat .lt_more:hover{color:#fff;border:2px solid #000;background:#000;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+
+.galleryBoxLat .fa-youtube-play{font-size:18px;vertical-align:middle;}
+
+
+@media all and (max-width:650px)
+{
+	.galleryBoxLat {padding:5px;}
+	.galleryBoxLat .galleryLatTit a{padding:15px;font-size:16px;}
+
+	.galleryBoxLat .lt_more{font-size:11px;letter-spacing:-0.05em;padding:10px 15px;}
+
+	.galleryBoxLat ul li{width:50%;}
+
+
+}

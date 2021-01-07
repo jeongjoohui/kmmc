@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* copyright(c) WEBsiting.co.kr */
+/* 갤러리 새글 스킨 (latest) */
+
+.prodLatWR{margin:0 auto;text-align:center;width:100%;}
+.prodLat {position:relative;overflow:hidden;text-align:center;padding:20px;margin:0 auto;}
+.prodLat .prodLatTit {display:block;}
+.prodLat .prodLatTit a{color:#ddd;display:inline-block;position:relative; margin:0 auto; padding:20px;font-size:20px; text-align:center;}
+.prodLat .prodLatTit a u{display:block;width:50px;height:5px;background:#999;position:absolute; left:50%;bottom:0px; margin-left:-25px;}
+
+.prodLat .prodLatREL{overflow:hidden;margin:0;}
+.prodLat .prodLatREL .prodLatRELcon{width:100%;float:left; text-align:center;}
+.prodLat .prodLatREL .prodLatRELcon a{display:block;margin:15px;position:relative;overflow:hidden;}
+.prodLat .prodLatREL .prodLatRELcon a em{display:block;font-style:normal;position:absolute; left:5px;top:5px; }
+.prodLat .prodLatREL .prodLatRELcon a > b{display:block;text-align:center;height:30px;line-height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;width:100%; color:#999;}
+.prodLat .prodLatREL .prodLatRELcon a .bo_cate_link{display:block;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;width:100%;margin:10px 0 0 0;}
+.prodLat .prodLatREL .prodLatRELcon a > i u{display:block;text-decoration:none; font-style:normal;position:absolute; left:0;top:50%;width:100%;margin-top:-10px;height:20px;line-height:20px;font-size:12px;color:#999; }
+.prodLat .prodLatREL .prodLatRELcon a > i{display:block;width:100%;background:#fff; position:relative;overflow:hidden; margin:0 auto;}
+.prodLat .prodLatREL .prodLatRELcon a > i img{display:block;height:auto;width:100%; margin:0 auto;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+.prodLat .prodLatREL .prodLatRELcon a:hover > i img{transform: scale(1.1);-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+
+.prodLat .prodLatREL .prodLatRELcon a span{font-size:11px;}
+.prodLat .prodLatREL .prodLatRELcon .fa-heart{color:#ff0000;}
+.prodLat .prodLatREL .prodLatRELcon .fa-lock{display: inline-block;font-size:11px;line-height: 14px;width: 16px;color: #999;background: #efefef;text-align: center;border-radius: 2px;font-size: 12px;border:1px solid #ddd}
+.prodLat .prodLatREL .prodLatRELcon .new_icon{display:inline-block;font-size:11px;width: 16px;line-height:16px;color:#fff;background:#ff6600;text-align:center;border-radius: 50%;}
+.prodLat .prodLatREL .prodLatRELcon .hot_icon{display:inline-block;font-size:11px;width: 16px;line-height:16px ;color:#fff;background:#e52955;text-align:center;border-radius: 50%;}
+
+.prodLat .lt_more {clear:both;font-size:12px;font-weight:bold;display:inline-block; padding:10px 30px;color:#ddd;border-radius:50px;text-align:center; margin:20px auto 0;background:#333;border:2px solid #444;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+.prodLat .lt_more:hover{color:#fff;border:2px solid #000;background:#000;-webkit-transition-duration: 0.2s;-webkit-transition-timing-function: ease;transition-duration: 0.2s;transition-timing-function: ease;}
+
+
+
+
+@media all and (max-width:600px)
+{
+	.prodLat {padding:5px;}
+	.prodLat .prodLatTit a{padding:15px;font-size:16px;}
+
+	.prodLat .lt_more{font-size:11px;letter-spacing:-0.05em;padding:10px 15px;}
+
+	.prodLat .prodLatREL .prodLatRELcon a{margin:5px;}
+
+
+}
