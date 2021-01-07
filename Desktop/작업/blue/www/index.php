@@ -29,7 +29,7 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_PLUGIN_URL.'/bxslider/jquery.b
 		</div>
 	</section>
 
-	<?php /* 메인페이지 비쥬얼 01.07dfdf */ ?>
+	<?php /* 메인페이지 비쥬얼 */ ?>
 
 	<hr>
 
