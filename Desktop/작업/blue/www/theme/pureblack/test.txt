@@ -1,7 +1,0 @@
-
-<script>
-$(document).ready(function(){
-  alert('데모페이지에서는 이용이 제한된 기능입니다.\n 감사합니다.');
-  window.history.back();
-});
-</script>
