@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+/* main_banner css 시작*/
+#main_banner {
+    text-align: center;
+    background: #f8f8f8;
+    position: relative;
+}
+
+.main_txt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20%;
+    text-align: left;
+}
+
+.main_txt h2 {
+    font-size: 4em;
+    color: #393939;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.main_txt h3 {
+    font-size: 1.5em;
+    color: #898989;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+.main_btn {
+    padding: 1.2em 0.5em;
+    border-radius: 30px;
+    width: 210px;
+    outline: none;
+    font-size: 1.2em;
+    border: 1px solid #969696;
+    background: #f8f8f8;
+}
+
+
+#section2,
+#section3,
+#section5 {
+    position: relative;
+    width: 63%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    margin-top: 8em;
+    clear: both;
+}
+
+/* section2 css 시작*/
+.ver_line {
+    display: block;
+    width: 1px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+#section2 .title {
+    display: block;
+    line-height: 45px;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3em;
+}
+
+#section2 .sub_title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #777;
+    font-weight: 200;
+}
+
+.more_btn:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.more_btn {
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 28px;
+    text-align: center;
+    margin: 50px auto 0;
+    font-size: 1.3em;
+}
+
+.pic_li_cont {
+    margin-bottom: 100px;
+}
+
+.pic_li_cont li {
+    width: 33.3%;
+    float: left;
+    margin: 100px 0 0;
+    position: relative;
+    text-align: center;
+}
+
+.pic_li_cont li  img {
+    width: 100%;
+    max-width: inherit;
+    vertical-align: middle;
+    margin-bottom: 2em;
+}
+
+.pic_li_cont li h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+.pic_li_cont li p {
+    font-size: 1.2em;
+    color: #888;
+}
+
+.img_hover1,.img_hover2,.img_hover3 {
+    position: absolute;
+    width: 100%;
+    height: 398px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+    top: 0;
+    line-height: 392px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/* section3 css시작 */
+#section3 .title,
+#section5 .title {
+    display: block;
+    line-height: 45px;
+    font-size: 2em;
+    text-align: left;
+    margin-top: 3em;
+}
+
+#section3 .sub_title,
+#section5 .sub_title {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #777;
+    font-weight: 200;
+}
+
+.swiper-container {
+    margin: 8em 0;
+}
+
+.swiper-slide {
+    background: #ededed;
+    text-align: center;
+
+}
+
+.swiper-slide img {
+    width: 100%;
+    max-width: inherit;
+    vertical-align: middle;
+
+}
+
+/* section4 css 시작*/
+#section4 {
+    width: 100%;
+    margin-bottom: 7em;
+}
+
+#section4 img {
+    width: 100%;
+}
+
+/* section5 css 시작 */
+.contact_us {
+    margin: 5em 0;
+}
+
+.cont_lf {
+    width: 48%;
+    float: left;
+    height: 400px;
+    margin-right: 4%;
+}
+
+.cont_lf iframe {
+    width: 100%;
+    height: inherit;
+}
+
+.cont_rt {
+    width: 48%;
+    float: right;
+    vertical-align: middle;
+}
+
+.cont_rt h3 {
+    font-size: 2em;
+    display: block;
+    text-align: left;
+    color: #888;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #ededed;
+}
+
+.list_tit {
+    width: 20%;
+    margin-right: 4%;
+    float: left;
+    margin-top: 2em;
+}
+
+.list_cont {
+    width: 76%;
+    float: right;
+    margin-top: 2em;
+}
+
+.list_tit li,
+.list_cont li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* 상담문의 css */
+.main-speedform {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fa-3 {
+    font-size: 4em !important;
+    color: #0f4c81;
+}
+
+/* form */
+
+fieldset ul {
+    text-align: center;
+
+}
+
+fieldset ul li {
+    display: inline-block;
+    width: 49%;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+fieldset ul li:nth-child(2n){
+    margin-right: 0;
+}
+fieldset ul li input {
+    height: 42px;
+    width: 100%;  
+    padding-left: 10px;
+    border: none;
+    opacity: 0.7;
+}
+
+.tex_area textarea {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 1em;
+    overflow: hidden;
+}
+
+.checkbox {
+    color: #888;
+    text-align: left;
+    padding-top: 0.5em;
+}
+
+.btn-area {
+    text-align: center;
+}
+
+.btn-area .btn_consul {
+    outline: none;
+	clear:both;
+	font-size:1.2em;
+	/*font-weight:bold;*/
+	display:inline-block;
+	padding:10px 50px;
+	color:#ddd;
+	border-radius:50px;
+	text-align:center;
+	margin:2em auto 8em;
+	background:#333;
+	border:2px solid #444;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;	
+}
+.btn-area .btn_consul:hover{
+	color:#fff;
+	border:2px solid #000;
+	background:#000;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+}
